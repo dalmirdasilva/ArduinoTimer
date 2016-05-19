@@ -1,0 +1,1575 @@
+In archive libArduinoTimers.a:
+
+TimerThree.o:     file format elf32-avr
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .text         00000000  00000000  00000000  00000034  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  1 .data         00000000  00000000  00000000  00000034  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+  2 .bss          00000000  00000000  00000000  00000034  2**0
+                  ALLOC
+  3 .stab         0000069c  00000000  00000000  00000034  2**2
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+  4 .stabstr      0000119c  00000000  00000000  000006d0  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  5 .rodata._ZL2SS 00000001  00000000  00000000  0000186c  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+  6 .rodata._ZL4MOSI 00000001  00000000  00000000  0000186d  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+  7 .rodata._ZL4MISO 00000001  00000000  00000000  0000186e  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+  8 .rodata._ZL3SCK 00000001  00000000  00000000  0000186f  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+  9 .rodata._ZL3SDA 00000001  00000000  00000000  00001870  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 10 .rodata._ZL3SCL 00000001  00000000  00000000  00001871  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 11 .rodata._ZL2A0 00000001  00000000  00000000  00001872  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 12 .rodata._ZL2A1 00000001  00000000  00000000  00001873  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 13 .rodata._ZL2A2 00000001  00000000  00000000  00001874  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 14 .rodata._ZL2A3 00000001  00000000  00000000  00001875  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 15 .rodata._ZL2A4 00000001  00000000  00000000  00001876  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 16 .rodata._ZL2A5 00000001  00000000  00000000  00001877  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 17 .rodata._ZL2A6 00000001  00000000  00000000  00001878  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 18 .rodata._ZL2A7 00000001  00000000  00000000  00001879  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 19 .comment      00000012  00000000  00000000  0000187a  2**0
+                  CONTENTS, READONLY
+
+TimerOne.o:     file format elf32-avr
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .text         00000000  00000000  00000000  00000034  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  1 .data         00000000  00000000  00000000  00000034  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+  2 .bss          00000000  00000000  00000000  00000034  2**0
+                  ALLOC
+  3 .stab         00000c9c  00000000  00000000  00000034  2**2
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+  4 .stabstr      00001010  00000000  00000000  00000cd0  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  5 .bss.Timer1   00000006  00000000  00000000  00001ce0  2**0
+                  ALLOC
+  6 .text.__vector_13 00000060  00000000  00000000  00001ce0  2**0
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  7 .text._ZN8TimerOne10initializeEl 00000054  00000000  00000000  00001d40  2**0
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  8 .text._ZN8TimerOne9setPeriodEl 00000210  00000000  00000000  00001d94  2**0
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  9 .text._ZN8TimerOne10setPwmDutyEci 000000ea  00000000  00000000  00001fa4  2**0
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 10 .text._ZN8TimerOne3pwmEcil 000000e2  00000000  00000000  0000208e  2**0
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 11 .text._ZN8TimerOne10disablePwmEc 0000005c  00000000  00000000  00002170  2**0
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 12 .text._ZN8TimerOne15attachInterruptEPFvvEl 0000007e  00000000  00000000  000021cc  2**0
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 13 .text._ZN8TimerOne15detachInterruptEv 0000002a  00000000  00000000  0000224a  2**0
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 14 .text._ZN8TimerOne6resumeEv 00000032  00000000  00000000  00002274  2**0
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 15 .text._ZN8TimerOne5startEv 000000a6  00000000  00000000  000022a6  2**0
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 16 .text._ZN8TimerOne4stopEv 0000002a  00000000  00000000  0000234c  2**0
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 17 .text._ZN8TimerOne4readEv 000001a2  00000000  00000000  00002376  2**0
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 18 .comment      00000012  00000000  00000000  00002518  2**0
+                  CONTENTS, READONLY
+
+Disassembly of section .text.__vector_13:
+
+00000000 <__vector_13>:
+
+    // Clears all clock selects bits
+    TCCR1B &= ~(_BV(CS10) | _BV(CS11) | _BV(CS12));
+}
+
+unsigned long TimerOne::read() {
+   0:	1f 92       	push	r1
+   2:	0f 92       	push	r0
+   4:	00 90 5f 00 	lds	r0, 0x005F
+   8:	0f 92       	push	r0
+   a:	11 24       	eor	r1, r1
+   c:	2f 93       	push	r18
+   e:	3f 93       	push	r19
+  10:	4f 93       	push	r20
+  12:	5f 93       	push	r21
+  14:	6f 93       	push	r22
+  16:	7f 93       	push	r23
+
+    unsigned long tmp;
+    unsigned int tcnt1;
+
+    oldSREG = SREG;
+  18:	8f 93       	push	r24
+  1a:	9f 93       	push	r25
+  1c:	af 93       	push	r26
+  1e:	bf 93       	push	r27
+  20:	ef 93       	push	r30
+  22:	ff 93       	push	r31
+  24:	cf 93       	push	r28
+  26:	df 93       	push	r29
+    cli();
+  28:	cd b7       	in	r28, 0x3d	; 61
+    tmp = TCNT1;
+  2a:	de b7       	in	r29, 0x3e	; 62
+  2c:	80 91 00 00 	lds	r24, 0x0000
+  30:	90 91 00 00 	lds	r25, 0x0000
+  34:	fc 01       	movw	r30, r24
+  36:	09 95       	icall
+  38:	df 91       	pop	r29
+  3a:	cf 91       	pop	r28
+  3c:	ff 91       	pop	r31
+  3e:	ef 91       	pop	r30
+  40:	bf 91       	pop	r27
+    SREG = oldSREG;
+  42:	af 91       	pop	r26
+  44:	9f 91       	pop	r25
+  46:	8f 91       	pop	r24
+  48:	7f 91       	pop	r23
+  4a:	6f 91       	pop	r22
+  4c:	5f 91       	pop	r21
+  4e:	4f 91       	pop	r20
+  50:	3f 91       	pop	r19
+
+    char scale = 0;
+  52:	2f 91       	pop	r18
+    switch (clockSelectBits) {
+  54:	0f 90       	pop	r0
+  56:	00 92 5f 00 	sts	0x005F, r0
+  5a:	0f 90       	pop	r0
+  5c:	1f 90       	pop	r1
+  5e:	18 95       	reti
+
+Disassembly of section .text._ZN8TimerOne10initializeEl:
+
+00000000 <_ZN8TimerOne10initializeEl>:
+
+    // Clears all clock selects bits
+    TCCR1B &= ~(_BV(CS10) | _BV(CS11) | _BV(CS12));
+}
+
+unsigned long TimerOne::read() {
+   0:	cf 93       	push	r28
+   2:	df 93       	push	r29
+   4:	00 d0       	rcall	.+0      	; 0x6 <_ZN8TimerOne10initializeEl+0x6>
+   6:	00 d0       	rcall	.+0      	; 0x8 <_ZN8TimerOne10initializeEl+0x8>
+   8:	00 d0       	rcall	.+0      	; 0xa <_ZN8TimerOne10initializeEl+0xa>
+   a:	cd b7       	in	r28, 0x3d	; 61
+   c:	de b7       	in	r29, 0x3e	; 62
+   e:	9a 83       	std	Y+2, r25	; 0x02
+  10:	89 83       	std	Y+1, r24	; 0x01
+  12:	4b 83       	std	Y+3, r20	; 0x03
+  14:	5c 83       	std	Y+4, r21	; 0x04
+  16:	6d 83       	std	Y+5, r22	; 0x05
+
+    unsigned long tmp;
+    unsigned int tcnt1;
+
+    oldSREG = SREG;
+  18:	7e 83       	std	Y+6, r23	; 0x06
+  1a:	80 e8       	ldi	r24, 0x80	; 128
+  1c:	90 e0       	ldi	r25, 0x00	; 0
+  1e:	fc 01       	movw	r30, r24
+  20:	10 82       	st	Z, r1
+  22:	81 e8       	ldi	r24, 0x81	; 129
+  24:	90 e0       	ldi	r25, 0x00	; 0
+  26:	20 e1       	ldi	r18, 0x10	; 16
+    cli();
+  28:	fc 01       	movw	r30, r24
+    tmp = TCNT1;
+  2a:	20 83       	st	Z, r18
+  2c:	8b 81       	ldd	r24, Y+3	; 0x03
+  2e:	9c 81       	ldd	r25, Y+4	; 0x04
+  30:	ad 81       	ldd	r26, Y+5	; 0x05
+  32:	be 81       	ldd	r27, Y+6	; 0x06
+  34:	29 81       	ldd	r18, Y+1	; 0x01
+  36:	3a 81       	ldd	r19, Y+2	; 0x02
+  38:	ac 01       	movw	r20, r24
+  3a:	bd 01       	movw	r22, r26
+  3c:	c9 01       	movw	r24, r18
+  3e:	0e 94 00 00 	call	0	; 0x0 <_ZN8TimerOne10initializeEl>
+    SREG = oldSREG;
+  42:	26 96       	adiw	r28, 0x06	; 6
+  44:	0f b6       	in	r0, 0x3f	; 63
+  46:	f8 94       	cli
+  48:	de bf       	out	0x3e, r29	; 62
+  4a:	0f be       	out	0x3f, r0	; 63
+  4c:	cd bf       	out	0x3d, r28	; 61
+  4e:	df 91       	pop	r29
+  50:	cf 91       	pop	r28
+
+    char scale = 0;
+  52:	08 95       	ret
+
+Disassembly of section .text._ZN8TimerOne9setPeriodEl:
+
+00000000 <_ZN8TimerOne9setPeriodEl>:
+
+    // Clears all clock selects bits
+    TCCR1B &= ~(_BV(CS10) | _BV(CS11) | _BV(CS12));
+}
+
+unsigned long TimerOne::read() {
+   0:	cf 93       	push	r28
+   2:	df 93       	push	r29
+   4:	cd b7       	in	r28, 0x3d	; 61
+   6:	de b7       	in	r29, 0x3e	; 62
+   8:	2a 97       	sbiw	r28, 0x0a	; 10
+   a:	0f b6       	in	r0, 0x3f	; 63
+   c:	f8 94       	cli
+   e:	de bf       	out	0x3e, r29	; 62
+  10:	0f be       	out	0x3f, r0	; 63
+  12:	cd bf       	out	0x3d, r28	; 61
+  14:	9e 83       	std	Y+6, r25	; 0x06
+  16:	8d 83       	std	Y+5, r24	; 0x05
+
+    unsigned long tmp;
+    unsigned int tcnt1;
+
+    oldSREG = SREG;
+  18:	4f 83       	std	Y+7, r20	; 0x07
+  1a:	58 87       	std	Y+8, r21	; 0x08
+  1c:	69 87       	std	Y+9, r22	; 0x09
+  1e:	7a 87       	std	Y+10, r23	; 0x0a
+  20:	8f 81       	ldd	r24, Y+7	; 0x07
+  22:	98 85       	ldd	r25, Y+8	; 0x08
+  24:	a9 85       	ldd	r26, Y+9	; 0x09
+  26:	ba 85       	ldd	r27, Y+10	; 0x0a
+    cli();
+  28:	88 0f       	add	r24, r24
+    tmp = TCNT1;
+  2a:	99 1f       	adc	r25, r25
+  2c:	aa 1f       	adc	r26, r26
+  2e:	bb 1f       	adc	r27, r27
+  30:	88 0f       	add	r24, r24
+  32:	99 1f       	adc	r25, r25
+  34:	aa 1f       	adc	r26, r26
+  36:	bb 1f       	adc	r27, r27
+  38:	88 0f       	add	r24, r24
+  3a:	99 1f       	adc	r25, r25
+  3c:	aa 1f       	adc	r26, r26
+  3e:	bb 1f       	adc	r27, r27
+  40:	89 83       	std	Y+1, r24	; 0x01
+    SREG = oldSREG;
+  42:	9a 83       	std	Y+2, r25	; 0x02
+  44:	ab 83       	std	Y+3, r26	; 0x03
+  46:	bc 83       	std	Y+4, r27	; 0x04
+  48:	89 81       	ldd	r24, Y+1	; 0x01
+  4a:	9a 81       	ldd	r25, Y+2	; 0x02
+  4c:	ab 81       	ldd	r26, Y+3	; 0x03
+  4e:	bc 81       	ldd	r27, Y+4	; 0x04
+  50:	00 97       	sbiw	r24, 0x00	; 0
+
+    char scale = 0;
+  52:	a1 40       	sbci	r26, 0x01	; 1
+    switch (clockSelectBits) {
+  54:	b1 05       	cpc	r27, r1
+  56:	04 f4       	brge	.+0      	; 0x58 <_ZN8TimerOne9setPeriodEl+0x58>
+  58:	8d 81       	ldd	r24, Y+5	; 0x05
+  5a:	9e 81       	ldd	r25, Y+6	; 0x06
+  5c:	21 e0       	ldi	r18, 0x01	; 1
+  5e:	fc 01       	movw	r30, r24
+  60:	22 83       	std	Z+2, r18	; 0x02
+  62:	00 c0       	rjmp	.+0      	; 0x64 <_ZN8TimerOne9setPeriodEl+0x64>
+  64:	89 81       	ldd	r24, Y+1	; 0x01
+  66:	9a 81       	ldd	r25, Y+2	; 0x02
+  68:	ab 81       	ldd	r26, Y+3	; 0x03
+  6a:	bc 81       	ldd	r27, Y+4	; 0x04
+  6c:	68 94       	set
+  6e:	12 f8       	bld	r1, 2
+  70:	b5 95       	asr	r27
+  72:	a7 95       	ror	r26
+  74:	97 95       	ror	r25
+  76:	87 95       	ror	r24
+  78:	16 94       	lsr	r1
+  7a:	01 f4       	brne	.+0      	; 0x7c <_ZN8TimerOne9setPeriodEl+0x7c>
+  7c:	89 83       	std	Y+1, r24	; 0x01
+  7e:	9a 83       	std	Y+2, r25	; 0x02
+  80:	ab 83       	std	Y+3, r26	; 0x03
+  82:	bc 83       	std	Y+4, r27	; 0x04
+        case 1:
+
+            // No prescalse
+            scale = 0;
+  84:	21 e0       	ldi	r18, 0x01	; 1
+            break;
+  86:	89 81       	ldd	r24, Y+1	; 0x01
+        case 2:
+
+            // x8 prescale
+            scale = 3;
+  88:	9a 81       	ldd	r25, Y+2	; 0x02
+  8a:	ab 81       	ldd	r26, Y+3	; 0x03
+            break;
+  8c:	bc 81       	ldd	r27, Y+4	; 0x04
+        case 3:
+
+            // x64
+            scale = 6;
+  8e:	00 97       	sbiw	r24, 0x00	; 0
+  90:	a1 40       	sbci	r26, 0x01	; 1
+            break;
+  92:	b1 05       	cpc	r27, r1
+        case 4:
+
+            // x256
+            scale = 8;
+  94:	04 f0       	brlt	.+0      	; 0x96 <_ZN8TimerOne9setPeriodEl+0x96>
+  96:	20 e0       	ldi	r18, 0x00	; 0
+            break;
+  98:	22 23       	and	r18, r18
+        case 5:
+
+            // x1024
+            scale = 10;
+  9a:	01 f0       	breq	.+0      	; 0x9c <_ZN8TimerOne9setPeriodEl+0x9c>
+  9c:	8d 81       	ldd	r24, Y+5	; 0x05
+            break;
+  9e:	9e 81       	ldd	r25, Y+6	; 0x06
+    }
+
+    // Max delay here is ~1023 cycles.
+    do {
+        oldSREG = SREG;
+  a0:	22 e0       	ldi	r18, 0x02	; 2
+  a2:	fc 01       	movw	r30, r24
+  a4:	22 83       	std	Z+2, r18	; 0x02
+  a6:	00 c0       	rjmp	.+0      	; 0xa8 <_ZN8TimerOne9setPeriodEl+0xa8>
+  a8:	89 81       	ldd	r24, Y+1	; 0x01
+  aa:	9a 81       	ldd	r25, Y+2	; 0x02
+  ac:	ab 81       	ldd	r26, Y+3	; 0x03
+  ae:	bc 81       	ldd	r27, Y+4	; 0x04
+        cli();
+  b0:	68 94       	set
+        tcnt1 = TCNT1;
+  b2:	12 f8       	bld	r1, 2
+  b4:	b5 95       	asr	r27
+  b6:	a7 95       	ror	r26
+  b8:	97 95       	ror	r25
+  ba:	87 95       	ror	r24
+  bc:	16 94       	lsr	r1
+  be:	01 f4       	brne	.+0      	; 0xc0 <_ZN8TimerOne9setPeriodEl+0xc0>
+        SREG = oldSREG;
+  c0:	89 83       	std	Y+1, r24	; 0x01
+  c2:	9a 83       	std	Y+2, r25	; 0x02
+  c4:	ab 83       	std	Y+3, r26	; 0x03
+  c6:	bc 83       	std	Y+4, r27	; 0x04
+  c8:	21 e0       	ldi	r18, 0x01	; 1
+  ca:	89 81       	ldd	r24, Y+1	; 0x01
+  cc:	9a 81       	ldd	r25, Y+2	; 0x02
+  ce:	ab 81       	ldd	r26, Y+3	; 0x03
+    } while (tcnt1 == tmp);
+  d0:	bc 81       	ldd	r27, Y+4	; 0x04
+  d2:	00 97       	sbiw	r24, 0x00	; 0
+  d4:	a1 40       	sbci	r26, 0x01	; 1
+  d6:	b1 05       	cpc	r27, r1
+  d8:	04 f0       	brlt	.+0      	; 0xda <_ZN8TimerOne9setPeriodEl+0xda>
+            scale = 10;
+            break;
+    }
+
+    // Max delay here is ~1023 cycles.
+    do {
+  da:	20 e0       	ldi	r18, 0x00	; 0
+  dc:	22 23       	and	r18, r18
+  de:	01 f0       	breq	.+0      	; 0xe0 <_ZN8TimerOne9setPeriodEl+0xe0>
+  e0:	8d 81       	ldd	r24, Y+5	; 0x05
+  e2:	9e 81       	ldd	r25, Y+6	; 0x06
+  e4:	23 e0       	ldi	r18, 0x03	; 3
+  e6:	fc 01       	movw	r30, r24
+  e8:	22 83       	std	Z+2, r18	; 0x02
+  ea:	00 c0       	rjmp	.+0      	; 0xec <_ZN8TimerOne9setPeriodEl+0xec>
+        tcnt1 = TCNT1;
+        SREG = oldSREG;
+    } while (tcnt1 == tmp);
+
+    // If we are counting down add the top value to how far we have counted down.
+    tmp = ((tcnt1 > tmp) ? (tmp) : (long) (ICR1 - tcnt1) + (long) ICR1 );
+  ec:	89 81       	ldd	r24, Y+1	; 0x01
+  ee:	9a 81       	ldd	r25, Y+2	; 0x02
+  f0:	ab 81       	ldd	r26, Y+3	; 0x03
+  f2:	bc 81       	ldd	r27, Y+4	; 0x04
+  f4:	b5 95       	asr	r27
+  f6:	a7 95       	ror	r26
+  f8:	97 95       	ror	r25
+  fa:	87 95       	ror	r24
+  fc:	b5 95       	asr	r27
+  fe:	a7 95       	ror	r26
+ 100:	97 95       	ror	r25
+ 102:	87 95       	ror	r24
+ 104:	89 83       	std	Y+1, r24	; 0x01
+ 106:	9a 83       	std	Y+2, r25	; 0x02
+ 108:	ab 83       	std	Y+3, r26	; 0x03
+ 10a:	bc 83       	std	Y+4, r27	; 0x04
+ 10c:	21 e0       	ldi	r18, 0x01	; 1
+ 10e:	89 81       	ldd	r24, Y+1	; 0x01
+ 110:	9a 81       	ldd	r25, Y+2	; 0x02
+ 112:	ab 81       	ldd	r26, Y+3	; 0x03
+ 114:	bc 81       	ldd	r27, Y+4	; 0x04
+ 116:	00 97       	sbiw	r24, 0x00	; 0
+ 118:	a1 40       	sbci	r26, 0x01	; 1
+ 11a:	b1 05       	cpc	r27, r1
+ 11c:	04 f0       	brlt	.+0      	; 0x11e <_ZN8TimerOne9setPeriodEl+0x11e>
+ 11e:	20 e0       	ldi	r18, 0x00	; 0
+ 120:	22 23       	and	r18, r18
+ 122:	01 f0       	breq	.+0      	; 0x124 <_ZN8TimerOne9setPeriodEl+0x124>
+ 124:	8d 81       	ldd	r24, Y+5	; 0x05
+ 126:	9e 81       	ldd	r25, Y+6	; 0x06
+ 128:	24 e0       	ldi	r18, 0x04	; 4
+ 12a:	fc 01       	movw	r30, r24
+ 12c:	22 83       	std	Z+2, r18	; 0x02
+ 12e:	00 c0       	rjmp	.+0      	; 0x130 <_ZN8TimerOne9setPeriodEl+0x130>
+ 130:	89 81       	ldd	r24, Y+1	; 0x01
+ 132:	9a 81       	ldd	r25, Y+2	; 0x02
+ 134:	ab 81       	ldd	r26, Y+3	; 0x03
+ 136:	bc 81       	ldd	r27, Y+4	; 0x04
+ 138:	b5 95       	asr	r27
+ 13a:	a7 95       	ror	r26
+ 13c:	97 95       	ror	r25
+ 13e:	87 95       	ror	r24
+ 140:	b5 95       	asr	r27
+ 142:	a7 95       	ror	r26
+ 144:	97 95       	ror	r25
+ 146:	87 95       	ror	r24
+ 148:	89 83       	std	Y+1, r24	; 0x01
+ 14a:	9a 83       	std	Y+2, r25	; 0x02
+ 14c:	ab 83       	std	Y+3, r26	; 0x03
+
+    // Add casts and reuse previous TCNT1
+    return ((tmp * 1000L) / (F_CPU / 1000L)) << scale;
+ 14e:	bc 83       	std	Y+4, r27	; 0x04
+ 150:	21 e0       	ldi	r18, 0x01	; 1
+ 152:	89 81       	ldd	r24, Y+1	; 0x01
+ 154:	9a 81       	ldd	r25, Y+2	; 0x02
+ 156:	ab 81       	ldd	r26, Y+3	; 0x03
+ 158:	bc 81       	ldd	r27, Y+4	; 0x04
+ 15a:	00 97       	sbiw	r24, 0x00	; 0
+ 15c:	a1 40       	sbci	r26, 0x01	; 1
+ 15e:	b1 05       	cpc	r27, r1
+ 160:	04 f0       	brlt	.+0      	; 0x162 <_ZN8TimerOne9setPeriodEl+0x162>
+ 162:	20 e0       	ldi	r18, 0x00	; 0
+ 164:	22 23       	and	r18, r18
+ 166:	01 f0       	breq	.+0      	; 0x168 <_ZN8TimerOne9setPeriodEl+0x168>
+ 168:	8d 81       	ldd	r24, Y+5	; 0x05
+ 16a:	9e 81       	ldd	r25, Y+6	; 0x06
+ 16c:	25 e0       	ldi	r18, 0x05	; 5
+ 16e:	fc 01       	movw	r30, r24
+ 170:	22 83       	std	Z+2, r18	; 0x02
+ 172:	00 c0       	rjmp	.+0      	; 0x174 <_ZN8TimerOne9setPeriodEl+0x174>
+ 174:	8f ef       	ldi	r24, 0xFF	; 255
+ 176:	9f ef       	ldi	r25, 0xFF	; 255
+ 178:	a0 e0       	ldi	r26, 0x00	; 0
+ 17a:	b0 e0       	ldi	r27, 0x00	; 0
+ 17c:	89 83       	std	Y+1, r24	; 0x01
+ 17e:	9a 83       	std	Y+2, r25	; 0x02
+ 180:	ab 83       	std	Y+3, r26	; 0x03
+ 182:	bc 83       	std	Y+4, r27	; 0x04
+ 184:	8d 81       	ldd	r24, Y+5	; 0x05
+ 186:	9e 81       	ldd	r25, Y+6	; 0x06
+ 188:	25 e0       	ldi	r18, 0x05	; 5
+ 18a:	fc 01       	movw	r30, r24
+}
+ 18c:	22 83       	std	Z+2, r18	; 0x02
+ 18e:	8f e5       	ldi	r24, 0x5F	; 95
+ 190:	90 e0       	ldi	r25, 0x00	; 0
+ 192:	fc 01       	movw	r30, r24
+ 194:	20 81       	ld	r18, Z
+ 196:	8d 81       	ldd	r24, Y+5	; 0x05
+ 198:	9e 81       	ldd	r25, Y+6	; 0x06
+ 19a:	fc 01       	movw	r30, r24
+ 19c:	23 83       	std	Z+3, r18	; 0x03
+ 19e:	f8 94       	cli
+ 1a0:	86 e8       	ldi	r24, 0x86	; 134
+ 1a2:	90 e0       	ldi	r25, 0x00	; 0
+ 1a4:	49 81       	ldd	r20, Y+1	; 0x01
+ 1a6:	5a 81       	ldd	r21, Y+2	; 0x02
+ 1a8:	2d 81       	ldd	r18, Y+5	; 0x05
+ 1aa:	3e 81       	ldd	r19, Y+6	; 0x06
+ 1ac:	f9 01       	movw	r30, r18
+ 1ae:	51 83       	std	Z+1, r21	; 0x01
+ 1b0:	40 83       	st	Z, r20
+ 1b2:	2d 81       	ldd	r18, Y+5	; 0x05
+ 1b4:	3e 81       	ldd	r19, Y+6	; 0x06
+ 1b6:	f9 01       	movw	r30, r18
+ 1b8:	20 81       	ld	r18, Z
+ 1ba:	31 81       	ldd	r19, Z+1	; 0x01
+ 1bc:	fc 01       	movw	r30, r24
+ 1be:	31 83       	std	Z+1, r19	; 0x01
+ 1c0:	20 83       	st	Z, r18
+ 1c2:	8f e5       	ldi	r24, 0x5F	; 95
+ 1c4:	90 e0       	ldi	r25, 0x00	; 0
+ 1c6:	2d 81       	ldd	r18, Y+5	; 0x05
+ 1c8:	3e 81       	ldd	r19, Y+6	; 0x06
+ 1ca:	f9 01       	movw	r30, r18
+ 1cc:	23 81       	ldd	r18, Z+3	; 0x03
+ 1ce:	fc 01       	movw	r30, r24
+ 1d0:	20 83       	st	Z, r18
+ 1d2:	81 e8       	ldi	r24, 0x81	; 129
+ 1d4:	90 e0       	ldi	r25, 0x00	; 0
+ 1d6:	21 e8       	ldi	r18, 0x81	; 129
+ 1d8:	30 e0       	ldi	r19, 0x00	; 0
+ 1da:	f9 01       	movw	r30, r18
+ 1dc:	20 81       	ld	r18, Z
+ 1de:	28 7f       	andi	r18, 0xF8	; 248
+ 1e0:	fc 01       	movw	r30, r24
+ 1e2:	20 83       	st	Z, r18
+ 1e4:	81 e8       	ldi	r24, 0x81	; 129
+ 1e6:	90 e0       	ldi	r25, 0x00	; 0
+ 1e8:	21 e8       	ldi	r18, 0x81	; 129
+ 1ea:	30 e0       	ldi	r19, 0x00	; 0
+ 1ec:	f9 01       	movw	r30, r18
+ 1ee:	40 81       	ld	r20, Z
+ 1f0:	2d 81       	ldd	r18, Y+5	; 0x05
+ 1f2:	3e 81       	ldd	r19, Y+6	; 0x06
+ 1f4:	f9 01       	movw	r30, r18
+ 1f6:	22 81       	ldd	r18, Z+2	; 0x02
+ 1f8:	24 2b       	or	r18, r20
+ 1fa:	fc 01       	movw	r30, r24
+ 1fc:	20 83       	st	Z, r18
+ 1fe:	2a 96       	adiw	r28, 0x0a	; 10
+ 200:	0f b6       	in	r0, 0x3f	; 63
+ 202:	f8 94       	cli
+ 204:	de bf       	out	0x3e, r29	; 62
+ 206:	0f be       	out	0x3f, r0	; 63
+ 208:	cd bf       	out	0x3d, r28	; 61
+ 20a:	df 91       	pop	r29
+ 20c:	cf 91       	pop	r28
+ 20e:	08 95       	ret
+
+Disassembly of section .text._ZN8TimerOne10setPwmDutyEci:
+
+00000000 <_ZN8TimerOne10setPwmDutyEci>:
+
+    // Clears all clock selects bits
+    TCCR1B &= ~(_BV(CS10) | _BV(CS11) | _BV(CS12));
+}
+
+unsigned long TimerOne::read() {
+   0:	cf 93       	push	r28
+   2:	df 93       	push	r29
+   4:	cd b7       	in	r28, 0x3d	; 61
+   6:	de b7       	in	r29, 0x3e	; 62
+   8:	29 97       	sbiw	r28, 0x09	; 9
+   a:	0f b6       	in	r0, 0x3f	; 63
+   c:	f8 94       	cli
+   e:	de bf       	out	0x3e, r29	; 62
+  10:	0f be       	out	0x3f, r0	; 63
+  12:	cd bf       	out	0x3d, r28	; 61
+  14:	9e 83       	std	Y+6, r25	; 0x06
+  16:	8d 83       	std	Y+5, r24	; 0x05
+
+    unsigned long tmp;
+    unsigned int tcnt1;
+
+    oldSREG = SREG;
+  18:	6f 83       	std	Y+7, r22	; 0x07
+  1a:	59 87       	std	Y+9, r21	; 0x09
+  1c:	48 87       	std	Y+8, r20	; 0x08
+  1e:	8d 81       	ldd	r24, Y+5	; 0x05
+  20:	9e 81       	ldd	r25, Y+6	; 0x06
+  22:	fc 01       	movw	r30, r24
+  24:	80 81       	ld	r24, Z
+  26:	91 81       	ldd	r25, Z+1	; 0x01
+    cli();
+  28:	cc 01       	movw	r24, r24
+    tmp = TCNT1;
+  2a:	a0 e0       	ldi	r26, 0x00	; 0
+  2c:	b0 e0       	ldi	r27, 0x00	; 0
+  2e:	89 83       	std	Y+1, r24	; 0x01
+  30:	9a 83       	std	Y+2, r25	; 0x02
+  32:	ab 83       	std	Y+3, r26	; 0x03
+  34:	bc 83       	std	Y+4, r27	; 0x04
+  36:	88 85       	ldd	r24, Y+8	; 0x08
+  38:	99 85       	ldd	r25, Y+9	; 0x09
+  3a:	09 2e       	mov	r0, r25
+  3c:	00 0c       	add	r0, r0
+  3e:	aa 0b       	sbc	r26, r26
+  40:	bb 0b       	sbc	r27, r27
+    SREG = oldSREG;
+  42:	29 81       	ldd	r18, Y+1	; 0x01
+  44:	3a 81       	ldd	r19, Y+2	; 0x02
+  46:	4b 81       	ldd	r20, Y+3	; 0x03
+  48:	5c 81       	ldd	r21, Y+4	; 0x04
+  4a:	bc 01       	movw	r22, r24
+  4c:	cd 01       	movw	r24, r26
+  4e:	0e 94 00 00 	call	0	; 0x0 <_ZN8TimerOne10setPwmDutyEci>
+
+    char scale = 0;
+  52:	dc 01       	movw	r26, r24
+    switch (clockSelectBits) {
+  54:	cb 01       	movw	r24, r22
+  56:	89 83       	std	Y+1, r24	; 0x01
+  58:	9a 83       	std	Y+2, r25	; 0x02
+  5a:	ab 83       	std	Y+3, r26	; 0x03
+  5c:	bc 83       	std	Y+4, r27	; 0x04
+  5e:	89 81       	ldd	r24, Y+1	; 0x01
+  60:	9a 81       	ldd	r25, Y+2	; 0x02
+  62:	ab 81       	ldd	r26, Y+3	; 0x03
+  64:	bc 81       	ldd	r27, Y+4	; 0x04
+  66:	07 2e       	mov	r0, r23
+  68:	7a e0       	ldi	r23, 0x0A	; 10
+  6a:	b6 95       	lsr	r27
+  6c:	a7 95       	ror	r26
+  6e:	97 95       	ror	r25
+  70:	87 95       	ror	r24
+  72:	7a 95       	dec	r23
+  74:	01 f4       	brne	.+0      	; 0x76 <_ZN8TimerOne10setPwmDutyEci+0x76>
+  76:	70 2d       	mov	r23, r0
+  78:	89 83       	std	Y+1, r24	; 0x01
+  7a:	9a 83       	std	Y+2, r25	; 0x02
+  7c:	ab 83       	std	Y+3, r26	; 0x03
+  7e:	bc 83       	std	Y+4, r27	; 0x04
+  80:	8f e5       	ldi	r24, 0x5F	; 95
+  82:	90 e0       	ldi	r25, 0x00	; 0
+        case 1:
+
+            // No prescalse
+            scale = 0;
+  84:	fc 01       	movw	r30, r24
+            break;
+  86:	20 81       	ld	r18, Z
+        case 2:
+
+            // x8 prescale
+            scale = 3;
+  88:	8d 81       	ldd	r24, Y+5	; 0x05
+  8a:	9e 81       	ldd	r25, Y+6	; 0x06
+            break;
+  8c:	fc 01       	movw	r30, r24
+        case 3:
+
+            // x64
+            scale = 6;
+  8e:	23 83       	std	Z+3, r18	; 0x03
+  90:	f8 94       	cli
+            break;
+  92:	8f 81       	ldd	r24, Y+7	; 0x07
+        case 4:
+
+            // x256
+            scale = 8;
+  94:	81 30       	cpi	r24, 0x01	; 1
+  96:	01 f0       	breq	.+0      	; 0x98 <_ZN8TimerOne10setPwmDutyEci+0x98>
+            break;
+  98:	8f 81       	ldd	r24, Y+7	; 0x07
+        case 5:
+
+            // x1024
+            scale = 10;
+  9a:	89 30       	cpi	r24, 0x09	; 9
+  9c:	01 f4       	brne	.+0      	; 0x9e <_ZN8TimerOne10setPwmDutyEci+0x9e>
+            break;
+  9e:	88 e8       	ldi	r24, 0x88	; 136
+    }
+
+    // Max delay here is ~1023 cycles.
+    do {
+        oldSREG = SREG;
+  a0:	90 e0       	ldi	r25, 0x00	; 0
+  a2:	29 81       	ldd	r18, Y+1	; 0x01
+  a4:	3a 81       	ldd	r19, Y+2	; 0x02
+  a6:	fc 01       	movw	r30, r24
+  a8:	31 83       	std	Z+1, r19	; 0x01
+  aa:	20 83       	st	Z, r18
+  ac:	00 c0       	rjmp	.+0      	; 0xae <_ZN8TimerOne10setPwmDutyEci+0xae>
+  ae:	8f 81       	ldd	r24, Y+7	; 0x07
+        cli();
+  b0:	82 30       	cpi	r24, 0x02	; 2
+        tcnt1 = TCNT1;
+  b2:	01 f0       	breq	.+0      	; 0xb4 <_ZN8TimerOne10setPwmDutyEci+0xb4>
+  b4:	8f 81       	ldd	r24, Y+7	; 0x07
+  b6:	8a 30       	cpi	r24, 0x0A	; 10
+  b8:	01 f4       	brne	.+0      	; 0xba <_ZN8TimerOne10setPwmDutyEci+0xba>
+  ba:	8a e8       	ldi	r24, 0x8A	; 138
+  bc:	90 e0       	ldi	r25, 0x00	; 0
+  be:	29 81       	ldd	r18, Y+1	; 0x01
+        SREG = oldSREG;
+  c0:	3a 81       	ldd	r19, Y+2	; 0x02
+  c2:	fc 01       	movw	r30, r24
+  c4:	31 83       	std	Z+1, r19	; 0x01
+  c6:	20 83       	st	Z, r18
+  c8:	8f e5       	ldi	r24, 0x5F	; 95
+  ca:	90 e0       	ldi	r25, 0x00	; 0
+  cc:	2d 81       	ldd	r18, Y+5	; 0x05
+  ce:	3e 81       	ldd	r19, Y+6	; 0x06
+    } while (tcnt1 == tmp);
+  d0:	f9 01       	movw	r30, r18
+  d2:	23 81       	ldd	r18, Z+3	; 0x03
+  d4:	fc 01       	movw	r30, r24
+  d6:	20 83       	st	Z, r18
+  d8:	29 96       	adiw	r28, 0x09	; 9
+            scale = 10;
+            break;
+    }
+
+    // Max delay here is ~1023 cycles.
+    do {
+  da:	0f b6       	in	r0, 0x3f	; 63
+  dc:	f8 94       	cli
+  de:	de bf       	out	0x3e, r29	; 62
+  e0:	0f be       	out	0x3f, r0	; 63
+  e2:	cd bf       	out	0x3d, r28	; 61
+  e4:	df 91       	pop	r29
+  e6:	cf 91       	pop	r28
+  e8:	08 95       	ret
+
+Disassembly of section .text._ZN8TimerOne3pwmEcil:
+
+00000000 <_ZN8TimerOne3pwmEcil>:
+
+    // Clears all clock selects bits
+    TCCR1B &= ~(_BV(CS10) | _BV(CS11) | _BV(CS12));
+}
+
+unsigned long TimerOne::read() {
+   0:	0f 93       	push	r16
+   2:	1f 93       	push	r17
+   4:	cf 93       	push	r28
+   6:	df 93       	push	r29
+   8:	cd b7       	in	r28, 0x3d	; 61
+   a:	de b7       	in	r29, 0x3e	; 62
+   c:	29 97       	sbiw	r28, 0x09	; 9
+   e:	0f b6       	in	r0, 0x3f	; 63
+  10:	f8 94       	cli
+  12:	de bf       	out	0x3e, r29	; 62
+  14:	0f be       	out	0x3f, r0	; 63
+  16:	cd bf       	out	0x3d, r28	; 61
+
+    unsigned long tmp;
+    unsigned int tcnt1;
+
+    oldSREG = SREG;
+  18:	9a 83       	std	Y+2, r25	; 0x02
+  1a:	89 83       	std	Y+1, r24	; 0x01
+  1c:	6b 83       	std	Y+3, r22	; 0x03
+  1e:	5d 83       	std	Y+5, r21	; 0x05
+  20:	4c 83       	std	Y+4, r20	; 0x04
+  22:	0e 83       	std	Y+6, r16	; 0x06
+  24:	1f 83       	std	Y+7, r17	; 0x07
+  26:	28 87       	std	Y+8, r18	; 0x08
+    cli();
+  28:	39 87       	std	Y+9, r19	; 0x09
+    tmp = TCNT1;
+  2a:	8e 81       	ldd	r24, Y+6	; 0x06
+  2c:	9f 81       	ldd	r25, Y+7	; 0x07
+  2e:	a8 85       	ldd	r26, Y+8	; 0x08
+  30:	b9 85       	ldd	r27, Y+9	; 0x09
+  32:	18 16       	cp	r1, r24
+  34:	19 06       	cpc	r1, r25
+  36:	1a 06       	cpc	r1, r26
+  38:	1b 06       	cpc	r1, r27
+  3a:	04 f4       	brge	.+0      	; 0x3c <_ZN8TimerOne3pwmEcil+0x3c>
+  3c:	8e 81       	ldd	r24, Y+6	; 0x06
+  3e:	9f 81       	ldd	r25, Y+7	; 0x07
+  40:	a8 85       	ldd	r26, Y+8	; 0x08
+    SREG = oldSREG;
+  42:	b9 85       	ldd	r27, Y+9	; 0x09
+  44:	29 81       	ldd	r18, Y+1	; 0x01
+  46:	3a 81       	ldd	r19, Y+2	; 0x02
+  48:	ac 01       	movw	r20, r24
+  4a:	bd 01       	movw	r22, r26
+  4c:	c9 01       	movw	r24, r18
+  4e:	0e 94 00 00 	call	0	; 0x0 <_ZN8TimerOne3pwmEcil>
+
+    char scale = 0;
+  52:	8b 81       	ldd	r24, Y+3	; 0x03
+    switch (clockSelectBits) {
+  54:	81 30       	cpi	r24, 0x01	; 1
+  56:	01 f0       	breq	.+0      	; 0x58 <_ZN8TimerOne3pwmEcil+0x58>
+  58:	8b 81       	ldd	r24, Y+3	; 0x03
+  5a:	89 30       	cpi	r24, 0x09	; 9
+  5c:	01 f4       	brne	.+0      	; 0x5e <_ZN8TimerOne3pwmEcil+0x5e>
+  5e:	84 e2       	ldi	r24, 0x24	; 36
+  60:	90 e0       	ldi	r25, 0x00	; 0
+  62:	24 e2       	ldi	r18, 0x24	; 36
+  64:	30 e0       	ldi	r19, 0x00	; 0
+  66:	f9 01       	movw	r30, r18
+  68:	20 81       	ld	r18, Z
+  6a:	22 60       	ori	r18, 0x02	; 2
+  6c:	fc 01       	movw	r30, r24
+  6e:	20 83       	st	Z, r18
+  70:	80 e8       	ldi	r24, 0x80	; 128
+  72:	90 e0       	ldi	r25, 0x00	; 0
+  74:	20 e8       	ldi	r18, 0x80	; 128
+  76:	30 e0       	ldi	r19, 0x00	; 0
+  78:	f9 01       	movw	r30, r18
+  7a:	20 81       	ld	r18, Z
+  7c:	20 68       	ori	r18, 0x80	; 128
+  7e:	fc 01       	movw	r30, r24
+  80:	20 83       	st	Z, r18
+  82:	00 c0       	rjmp	.+0      	; 0x84 <_ZN8TimerOne3pwmEcil+0x84>
+        case 1:
+
+            // No prescalse
+            scale = 0;
+  84:	8b 81       	ldd	r24, Y+3	; 0x03
+            break;
+  86:	82 30       	cpi	r24, 0x02	; 2
+        case 2:
+
+            // x8 prescale
+            scale = 3;
+  88:	01 f0       	breq	.+0      	; 0x8a <_ZN8TimerOne3pwmEcil+0x8a>
+  8a:	8b 81       	ldd	r24, Y+3	; 0x03
+            break;
+  8c:	8a 30       	cpi	r24, 0x0A	; 10
+        case 3:
+
+            // x64
+            scale = 6;
+  8e:	01 f4       	brne	.+0      	; 0x90 <_ZN8TimerOne3pwmEcil+0x90>
+  90:	84 e2       	ldi	r24, 0x24	; 36
+            break;
+  92:	90 e0       	ldi	r25, 0x00	; 0
+        case 4:
+
+            // x256
+            scale = 8;
+  94:	24 e2       	ldi	r18, 0x24	; 36
+  96:	30 e0       	ldi	r19, 0x00	; 0
+            break;
+  98:	f9 01       	movw	r30, r18
+        case 5:
+
+            // x1024
+            scale = 10;
+  9a:	20 81       	ld	r18, Z
+  9c:	24 60       	ori	r18, 0x04	; 4
+            break;
+  9e:	fc 01       	movw	r30, r24
+    }
+
+    // Max delay here is ~1023 cycles.
+    do {
+        oldSREG = SREG;
+  a0:	20 83       	st	Z, r18
+  a2:	80 e8       	ldi	r24, 0x80	; 128
+  a4:	90 e0       	ldi	r25, 0x00	; 0
+  a6:	20 e8       	ldi	r18, 0x80	; 128
+  a8:	30 e0       	ldi	r19, 0x00	; 0
+  aa:	f9 01       	movw	r30, r18
+  ac:	20 81       	ld	r18, Z
+  ae:	20 62       	ori	r18, 0x20	; 32
+        cli();
+  b0:	fc 01       	movw	r30, r24
+        tcnt1 = TCNT1;
+  b2:	20 83       	st	Z, r18
+  b4:	2c 81       	ldd	r18, Y+4	; 0x04
+  b6:	3d 81       	ldd	r19, Y+5	; 0x05
+  b8:	89 81       	ldd	r24, Y+1	; 0x01
+  ba:	9a 81       	ldd	r25, Y+2	; 0x02
+  bc:	a9 01       	movw	r20, r18
+  be:	6b 81       	ldd	r22, Y+3	; 0x03
+        SREG = oldSREG;
+  c0:	0e 94 00 00 	call	0	; 0x0 <_ZN8TimerOne3pwmEcil>
+  c4:	89 81       	ldd	r24, Y+1	; 0x01
+  c6:	9a 81       	ldd	r25, Y+2	; 0x02
+  c8:	0e 94 00 00 	call	0	; 0x0 <_ZN8TimerOne3pwmEcil>
+  cc:	29 96       	adiw	r28, 0x09	; 9
+  ce:	0f b6       	in	r0, 0x3f	; 63
+    } while (tcnt1 == tmp);
+  d0:	f8 94       	cli
+  d2:	de bf       	out	0x3e, r29	; 62
+  d4:	0f be       	out	0x3f, r0	; 63
+  d6:	cd bf       	out	0x3d, r28	; 61
+  d8:	df 91       	pop	r29
+            scale = 10;
+            break;
+    }
+
+    // Max delay here is ~1023 cycles.
+    do {
+  da:	cf 91       	pop	r28
+  dc:	1f 91       	pop	r17
+  de:	0f 91       	pop	r16
+  e0:	08 95       	ret
+
+Disassembly of section .text._ZN8TimerOne10disablePwmEc:
+
+00000000 <_ZN8TimerOne10disablePwmEc>:
+
+    // Clears all clock selects bits
+    TCCR1B &= ~(_BV(CS10) | _BV(CS11) | _BV(CS12));
+}
+
+unsigned long TimerOne::read() {
+   0:	cf 93       	push	r28
+   2:	df 93       	push	r29
+   4:	00 d0       	rcall	.+0      	; 0x6 <_ZN8TimerOne10disablePwmEc+0x6>
+   6:	1f 92       	push	r1
+   8:	cd b7       	in	r28, 0x3d	; 61
+   a:	de b7       	in	r29, 0x3e	; 62
+   c:	9a 83       	std	Y+2, r25	; 0x02
+   e:	89 83       	std	Y+1, r24	; 0x01
+  10:	6b 83       	std	Y+3, r22	; 0x03
+  12:	8b 81       	ldd	r24, Y+3	; 0x03
+  14:	81 30       	cpi	r24, 0x01	; 1
+  16:	01 f0       	breq	.+0      	; 0x18 <_ZN8TimerOne10disablePwmEc+0x18>
+
+    unsigned long tmp;
+    unsigned int tcnt1;
+
+    oldSREG = SREG;
+  18:	8b 81       	ldd	r24, Y+3	; 0x03
+  1a:	89 30       	cpi	r24, 0x09	; 9
+  1c:	01 f4       	brne	.+0      	; 0x1e <_ZN8TimerOne10disablePwmEc+0x1e>
+  1e:	80 e8       	ldi	r24, 0x80	; 128
+  20:	90 e0       	ldi	r25, 0x00	; 0
+  22:	20 e8       	ldi	r18, 0x80	; 128
+  24:	30 e0       	ldi	r19, 0x00	; 0
+  26:	f9 01       	movw	r30, r18
+    cli();
+  28:	20 81       	ld	r18, Z
+    tmp = TCNT1;
+  2a:	2f 77       	andi	r18, 0x7F	; 127
+  2c:	fc 01       	movw	r30, r24
+  2e:	20 83       	st	Z, r18
+  30:	00 c0       	rjmp	.+0      	; 0x32 <_ZN8TimerOne10disablePwmEc+0x32>
+  32:	8b 81       	ldd	r24, Y+3	; 0x03
+  34:	82 30       	cpi	r24, 0x02	; 2
+  36:	01 f0       	breq	.+0      	; 0x38 <_ZN8TimerOne10disablePwmEc+0x38>
+  38:	8b 81       	ldd	r24, Y+3	; 0x03
+  3a:	8a 30       	cpi	r24, 0x0A	; 10
+  3c:	01 f4       	brne	.+0      	; 0x3e <_ZN8TimerOne10disablePwmEc+0x3e>
+  3e:	80 e8       	ldi	r24, 0x80	; 128
+  40:	90 e0       	ldi	r25, 0x00	; 0
+    SREG = oldSREG;
+  42:	20 e8       	ldi	r18, 0x80	; 128
+  44:	30 e0       	ldi	r19, 0x00	; 0
+  46:	f9 01       	movw	r30, r18
+  48:	20 81       	ld	r18, Z
+  4a:	2f 7d       	andi	r18, 0xDF	; 223
+  4c:	fc 01       	movw	r30, r24
+  4e:	20 83       	st	Z, r18
+  50:	0f 90       	pop	r0
+
+    char scale = 0;
+  52:	0f 90       	pop	r0
+    switch (clockSelectBits) {
+  54:	0f 90       	pop	r0
+  56:	df 91       	pop	r29
+  58:	cf 91       	pop	r28
+  5a:	08 95       	ret
+
+Disassembly of section .text._ZN8TimerOne15attachInterruptEPFvvEl:
+
+00000000 <_ZN8TimerOne15attachInterruptEPFvvEl>:
+
+    // Clears all clock selects bits
+    TCCR1B &= ~(_BV(CS10) | _BV(CS11) | _BV(CS12));
+}
+
+unsigned long TimerOne::read() {
+   0:	cf 93       	push	r28
+   2:	df 93       	push	r29
+   4:	cd b7       	in	r28, 0x3d	; 61
+   6:	de b7       	in	r29, 0x3e	; 62
+   8:	28 97       	sbiw	r28, 0x08	; 8
+   a:	0f b6       	in	r0, 0x3f	; 63
+   c:	f8 94       	cli
+   e:	de bf       	out	0x3e, r29	; 62
+  10:	0f be       	out	0x3f, r0	; 63
+  12:	cd bf       	out	0x3d, r28	; 61
+  14:	9a 83       	std	Y+2, r25	; 0x02
+  16:	89 83       	std	Y+1, r24	; 0x01
+
+    unsigned long tmp;
+    unsigned int tcnt1;
+
+    oldSREG = SREG;
+  18:	7c 83       	std	Y+4, r23	; 0x04
+  1a:	6b 83       	std	Y+3, r22	; 0x03
+  1c:	2d 83       	std	Y+5, r18	; 0x05
+  1e:	3e 83       	std	Y+6, r19	; 0x06
+  20:	4f 83       	std	Y+7, r20	; 0x07
+  22:	58 87       	std	Y+8, r21	; 0x08
+  24:	8d 81       	ldd	r24, Y+5	; 0x05
+  26:	9e 81       	ldd	r25, Y+6	; 0x06
+    cli();
+  28:	af 81       	ldd	r26, Y+7	; 0x07
+    tmp = TCNT1;
+  2a:	b8 85       	ldd	r27, Y+8	; 0x08
+  2c:	18 16       	cp	r1, r24
+  2e:	19 06       	cpc	r1, r25
+  30:	1a 06       	cpc	r1, r26
+  32:	1b 06       	cpc	r1, r27
+  34:	04 f4       	brge	.+0      	; 0x36 <_ZN8TimerOne15attachInterruptEPFvvEl+0x36>
+  36:	8d 81       	ldd	r24, Y+5	; 0x05
+  38:	9e 81       	ldd	r25, Y+6	; 0x06
+  3a:	af 81       	ldd	r26, Y+7	; 0x07
+  3c:	b8 85       	ldd	r27, Y+8	; 0x08
+  3e:	29 81       	ldd	r18, Y+1	; 0x01
+  40:	3a 81       	ldd	r19, Y+2	; 0x02
+    SREG = oldSREG;
+  42:	ac 01       	movw	r20, r24
+  44:	bd 01       	movw	r22, r26
+  46:	c9 01       	movw	r24, r18
+  48:	0e 94 00 00 	call	0	; 0x0 <_ZN8TimerOne15attachInterruptEPFvvEl>
+  4c:	89 81       	ldd	r24, Y+1	; 0x01
+  4e:	9a 81       	ldd	r25, Y+2	; 0x02
+  50:	2b 81       	ldd	r18, Y+3	; 0x03
+
+    char scale = 0;
+  52:	3c 81       	ldd	r19, Y+4	; 0x04
+    switch (clockSelectBits) {
+  54:	fc 01       	movw	r30, r24
+  56:	35 83       	std	Z+5, r19	; 0x05
+  58:	24 83       	std	Z+4, r18	; 0x04
+  5a:	8f e6       	ldi	r24, 0x6F	; 111
+  5c:	90 e0       	ldi	r25, 0x00	; 0
+  5e:	21 e0       	ldi	r18, 0x01	; 1
+  60:	fc 01       	movw	r30, r24
+  62:	20 83       	st	Z, r18
+  64:	89 81       	ldd	r24, Y+1	; 0x01
+  66:	9a 81       	ldd	r25, Y+2	; 0x02
+  68:	0e 94 00 00 	call	0	; 0x0 <_ZN8TimerOne15attachInterruptEPFvvEl>
+  6c:	28 96       	adiw	r28, 0x08	; 8
+  6e:	0f b6       	in	r0, 0x3f	; 63
+  70:	f8 94       	cli
+  72:	de bf       	out	0x3e, r29	; 62
+  74:	0f be       	out	0x3f, r0	; 63
+  76:	cd bf       	out	0x3d, r28	; 61
+  78:	df 91       	pop	r29
+  7a:	cf 91       	pop	r28
+  7c:	08 95       	ret
+
+Disassembly of section .text._ZN8TimerOne15detachInterruptEv:
+
+00000000 <_ZN8TimerOne15detachInterruptEv>:
+
+    // Clears all clock selects bits
+    TCCR1B &= ~(_BV(CS10) | _BV(CS11) | _BV(CS12));
+}
+
+unsigned long TimerOne::read() {
+   0:	cf 93       	push	r28
+   2:	df 93       	push	r29
+   4:	00 d0       	rcall	.+0      	; 0x6 <_ZN8TimerOne15detachInterruptEv+0x6>
+   6:	cd b7       	in	r28, 0x3d	; 61
+   8:	de b7       	in	r29, 0x3e	; 62
+   a:	9a 83       	std	Y+2, r25	; 0x02
+   c:	89 83       	std	Y+1, r24	; 0x01
+   e:	8f e6       	ldi	r24, 0x6F	; 111
+  10:	90 e0       	ldi	r25, 0x00	; 0
+  12:	2f e6       	ldi	r18, 0x6F	; 111
+  14:	30 e0       	ldi	r19, 0x00	; 0
+  16:	f9 01       	movw	r30, r18
+
+    unsigned long tmp;
+    unsigned int tcnt1;
+
+    oldSREG = SREG;
+  18:	20 81       	ld	r18, Z
+  1a:	2e 7f       	andi	r18, 0xFE	; 254
+  1c:	fc 01       	movw	r30, r24
+  1e:	20 83       	st	Z, r18
+  20:	0f 90       	pop	r0
+  22:	0f 90       	pop	r0
+  24:	df 91       	pop	r29
+  26:	cf 91       	pop	r28
+    cli();
+  28:	08 95       	ret
+
+Disassembly of section .text._ZN8TimerOne6resumeEv:
+
+00000000 <_ZN8TimerOne6resumeEv>:
+
+    // Clears all clock selects bits
+    TCCR1B &= ~(_BV(CS10) | _BV(CS11) | _BV(CS12));
+}
+
+unsigned long TimerOne::read() {
+   0:	cf 93       	push	r28
+   2:	df 93       	push	r29
+   4:	00 d0       	rcall	.+0      	; 0x6 <_ZN8TimerOne6resumeEv+0x6>
+   6:	cd b7       	in	r28, 0x3d	; 61
+   8:	de b7       	in	r29, 0x3e	; 62
+   a:	9a 83       	std	Y+2, r25	; 0x02
+   c:	89 83       	std	Y+1, r24	; 0x01
+   e:	81 e8       	ldi	r24, 0x81	; 129
+  10:	90 e0       	ldi	r25, 0x00	; 0
+  12:	21 e8       	ldi	r18, 0x81	; 129
+  14:	30 e0       	ldi	r19, 0x00	; 0
+  16:	f9 01       	movw	r30, r18
+
+    unsigned long tmp;
+    unsigned int tcnt1;
+
+    oldSREG = SREG;
+  18:	40 81       	ld	r20, Z
+  1a:	29 81       	ldd	r18, Y+1	; 0x01
+  1c:	3a 81       	ldd	r19, Y+2	; 0x02
+  1e:	f9 01       	movw	r30, r18
+  20:	22 81       	ldd	r18, Z+2	; 0x02
+  22:	24 2b       	or	r18, r20
+  24:	fc 01       	movw	r30, r24
+  26:	20 83       	st	Z, r18
+    cli();
+  28:	0f 90       	pop	r0
+    tmp = TCNT1;
+  2a:	0f 90       	pop	r0
+  2c:	df 91       	pop	r29
+  2e:	cf 91       	pop	r28
+  30:	08 95       	ret
+
+Disassembly of section .text._ZN8TimerOne5startEv:
+
+00000000 <_ZN8TimerOne5startEv>:
+
+    // Clears all clock selects bits
+    TCCR1B &= ~(_BV(CS10) | _BV(CS11) | _BV(CS12));
+}
+
+unsigned long TimerOne::read() {
+   0:	cf 93       	push	r28
+   2:	df 93       	push	r29
+   4:	00 d0       	rcall	.+0      	; 0x6 <_ZN8TimerOne5startEv+0x6>
+   6:	00 d0       	rcall	.+0      	; 0x8 <_ZN8TimerOne5startEv+0x8>
+   8:	cd b7       	in	r28, 0x3d	; 61
+   a:	de b7       	in	r29, 0x3e	; 62
+   c:	9c 83       	std	Y+4, r25	; 0x04
+   e:	8b 83       	std	Y+3, r24	; 0x03
+  10:	8f e6       	ldi	r24, 0x6F	; 111
+  12:	90 e0       	ldi	r25, 0x00	; 0
+  14:	2f e6       	ldi	r18, 0x6F	; 111
+  16:	30 e0       	ldi	r19, 0x00	; 0
+
+    unsigned long tmp;
+    unsigned int tcnt1;
+
+    oldSREG = SREG;
+  18:	f9 01       	movw	r30, r18
+  1a:	20 81       	ld	r18, Z
+  1c:	2e 7f       	andi	r18, 0xFE	; 254
+  1e:	fc 01       	movw	r30, r24
+  20:	20 83       	st	Z, r18
+  22:	83 e4       	ldi	r24, 0x43	; 67
+  24:	90 e0       	ldi	r25, 0x00	; 0
+  26:	23 e4       	ldi	r18, 0x43	; 67
+    cli();
+  28:	30 e0       	ldi	r19, 0x00	; 0
+    tmp = TCNT1;
+  2a:	f9 01       	movw	r30, r18
+  2c:	20 81       	ld	r18, Z
+  2e:	21 60       	ori	r18, 0x01	; 1
+  30:	fc 01       	movw	r30, r24
+  32:	20 83       	st	Z, r18
+  34:	8f e5       	ldi	r24, 0x5F	; 95
+  36:	90 e0       	ldi	r25, 0x00	; 0
+  38:	fc 01       	movw	r30, r24
+  3a:	20 81       	ld	r18, Z
+  3c:	8b 81       	ldd	r24, Y+3	; 0x03
+  3e:	9c 81       	ldd	r25, Y+4	; 0x04
+  40:	fc 01       	movw	r30, r24
+    SREG = oldSREG;
+  42:	23 83       	std	Z+3, r18	; 0x03
+  44:	f8 94       	cli
+  46:	84 e8       	ldi	r24, 0x84	; 132
+  48:	90 e0       	ldi	r25, 0x00	; 0
+  4a:	fc 01       	movw	r30, r24
+  4c:	11 82       	std	Z+1, r1	; 0x01
+  4e:	10 82       	st	Z, r1
+  50:	8f e5       	ldi	r24, 0x5F	; 95
+
+    char scale = 0;
+  52:	90 e0       	ldi	r25, 0x00	; 0
+    switch (clockSelectBits) {
+  54:	2b 81       	ldd	r18, Y+3	; 0x03
+  56:	3c 81       	ldd	r19, Y+4	; 0x04
+  58:	f9 01       	movw	r30, r18
+  5a:	23 81       	ldd	r18, Z+3	; 0x03
+  5c:	fc 01       	movw	r30, r24
+  5e:	20 83       	st	Z, r18
+  60:	8f e5       	ldi	r24, 0x5F	; 95
+  62:	90 e0       	ldi	r25, 0x00	; 0
+  64:	fc 01       	movw	r30, r24
+  66:	20 81       	ld	r18, Z
+  68:	8b 81       	ldd	r24, Y+3	; 0x03
+  6a:	9c 81       	ldd	r25, Y+4	; 0x04
+  6c:	fc 01       	movw	r30, r24
+  6e:	23 83       	std	Z+3, r18	; 0x03
+  70:	f8 94       	cli
+  72:	84 e8       	ldi	r24, 0x84	; 132
+  74:	90 e0       	ldi	r25, 0x00	; 0
+  76:	fc 01       	movw	r30, r24
+  78:	80 81       	ld	r24, Z
+  7a:	91 81       	ldd	r25, Z+1	; 0x01
+  7c:	9a 83       	std	Y+2, r25	; 0x02
+  7e:	89 83       	std	Y+1, r24	; 0x01
+  80:	8f e5       	ldi	r24, 0x5F	; 95
+  82:	90 e0       	ldi	r25, 0x00	; 0
+        case 1:
+
+            // No prescalse
+            scale = 0;
+  84:	2b 81       	ldd	r18, Y+3	; 0x03
+            break;
+  86:	3c 81       	ldd	r19, Y+4	; 0x04
+        case 2:
+
+            // x8 prescale
+            scale = 3;
+  88:	f9 01       	movw	r30, r18
+  8a:	23 81       	ldd	r18, Z+3	; 0x03
+            break;
+  8c:	fc 01       	movw	r30, r24
+        case 3:
+
+            // x64
+            scale = 6;
+  8e:	20 83       	st	Z, r18
+  90:	89 81       	ldd	r24, Y+1	; 0x01
+            break;
+  92:	9a 81       	ldd	r25, Y+2	; 0x02
+        case 4:
+
+            // x256
+            scale = 8;
+  94:	89 2b       	or	r24, r25
+  96:	01 f0       	breq	.+0      	; 0x98 <_ZN8TimerOne5startEv+0x98>
+            break;
+  98:	0f 90       	pop	r0
+        case 5:
+
+            // x1024
+            scale = 10;
+  9a:	0f 90       	pop	r0
+  9c:	0f 90       	pop	r0
+            break;
+  9e:	0f 90       	pop	r0
+    }
+
+    // Max delay here is ~1023 cycles.
+    do {
+        oldSREG = SREG;
+  a0:	df 91       	pop	r29
+  a2:	cf 91       	pop	r28
+  a4:	08 95       	ret
+
+Disassembly of section .text._ZN8TimerOne4stopEv:
+
+00000000 <_ZN8TimerOne4stopEv>:
+
+    // Clears all clock selects bits
+    TCCR1B &= ~(_BV(CS10) | _BV(CS11) | _BV(CS12));
+}
+
+unsigned long TimerOne::read() {
+   0:	cf 93       	push	r28
+   2:	df 93       	push	r29
+   4:	00 d0       	rcall	.+0      	; 0x6 <_ZN8TimerOne4stopEv+0x6>
+   6:	cd b7       	in	r28, 0x3d	; 61
+   8:	de b7       	in	r29, 0x3e	; 62
+   a:	9a 83       	std	Y+2, r25	; 0x02
+   c:	89 83       	std	Y+1, r24	; 0x01
+   e:	81 e8       	ldi	r24, 0x81	; 129
+  10:	90 e0       	ldi	r25, 0x00	; 0
+  12:	21 e8       	ldi	r18, 0x81	; 129
+  14:	30 e0       	ldi	r19, 0x00	; 0
+  16:	f9 01       	movw	r30, r18
+
+    unsigned long tmp;
+    unsigned int tcnt1;
+
+    oldSREG = SREG;
+  18:	20 81       	ld	r18, Z
+  1a:	28 7f       	andi	r18, 0xF8	; 248
+  1c:	fc 01       	movw	r30, r24
+  1e:	20 83       	st	Z, r18
+  20:	0f 90       	pop	r0
+  22:	0f 90       	pop	r0
+  24:	df 91       	pop	r29
+  26:	cf 91       	pop	r28
+    cli();
+  28:	08 95       	ret
+
+Disassembly of section .text._ZN8TimerOne4readEv:
+
+00000000 <_ZN8TimerOne4readEv>:
+
+    // Clears all clock selects bits
+    TCCR1B &= ~(_BV(CS10) | _BV(CS11) | _BV(CS12));
+}
+
+unsigned long TimerOne::read() {
+   0:	cf 93       	push	r28
+   2:	df 93       	push	r29
+   4:	cd b7       	in	r28, 0x3d	; 61
+   6:	de b7       	in	r29, 0x3e	; 62
+   8:	2d 97       	sbiw	r28, 0x0d	; 13
+   a:	0f b6       	in	r0, 0x3f	; 63
+   c:	f8 94       	cli
+   e:	de bf       	out	0x3e, r29	; 62
+  10:	0f be       	out	0x3f, r0	; 63
+  12:	cd bf       	out	0x3d, r28	; 61
+  14:	99 87       	std	Y+9, r25	; 0x09
+  16:	88 87       	std	Y+8, r24	; 0x08
+
+    unsigned long tmp;
+    unsigned int tcnt1;
+
+    oldSREG = SREG;
+  18:	8f e5       	ldi	r24, 0x5F	; 95
+  1a:	90 e0       	ldi	r25, 0x00	; 0
+  1c:	fc 01       	movw	r30, r24
+  1e:	20 81       	ld	r18, Z
+  20:	88 85       	ldd	r24, Y+8	; 0x08
+  22:	99 85       	ldd	r25, Y+9	; 0x09
+  24:	fc 01       	movw	r30, r24
+  26:	23 83       	std	Z+3, r18	; 0x03
+    cli();
+  28:	f8 94       	cli
+    tmp = TCNT1;
+  2a:	84 e8       	ldi	r24, 0x84	; 132
+  2c:	90 e0       	ldi	r25, 0x00	; 0
+  2e:	fc 01       	movw	r30, r24
+  30:	80 81       	ld	r24, Z
+  32:	91 81       	ldd	r25, Z+1	; 0x01
+  34:	cc 01       	movw	r24, r24
+  36:	a0 e0       	ldi	r26, 0x00	; 0
+  38:	b0 e0       	ldi	r27, 0x00	; 0
+  3a:	8a 83       	std	Y+2, r24	; 0x02
+  3c:	9b 83       	std	Y+3, r25	; 0x03
+  3e:	ac 83       	std	Y+4, r26	; 0x04
+  40:	bd 83       	std	Y+5, r27	; 0x05
+    SREG = oldSREG;
+  42:	8f e5       	ldi	r24, 0x5F	; 95
+  44:	90 e0       	ldi	r25, 0x00	; 0
+  46:	28 85       	ldd	r18, Y+8	; 0x08
+  48:	39 85       	ldd	r19, Y+9	; 0x09
+  4a:	f9 01       	movw	r30, r18
+  4c:	23 81       	ldd	r18, Z+3	; 0x03
+  4e:	fc 01       	movw	r30, r24
+  50:	20 83       	st	Z, r18
+
+    char scale = 0;
+  52:	19 82       	std	Y+1, r1	; 0x01
+    switch (clockSelectBits) {
+  54:	88 85       	ldd	r24, Y+8	; 0x08
+  56:	99 85       	ldd	r25, Y+9	; 0x09
+  58:	fc 01       	movw	r30, r24
+  5a:	82 81       	ldd	r24, Z+2	; 0x02
+  5c:	88 2f       	mov	r24, r24
+  5e:	90 e0       	ldi	r25, 0x00	; 0
+  60:	83 30       	cpi	r24, 0x03	; 3
+  62:	91 05       	cpc	r25, r1
+  64:	01 f0       	breq	.+0      	; 0x66 <_ZN8TimerOne4readEv+0x66>
+  66:	84 30       	cpi	r24, 0x04	; 4
+  68:	91 05       	cpc	r25, r1
+  6a:	04 f4       	brge	.+0      	; 0x6c <_ZN8TimerOne4readEv+0x6c>
+  6c:	81 30       	cpi	r24, 0x01	; 1
+  6e:	91 05       	cpc	r25, r1
+  70:	01 f0       	breq	.+0      	; 0x72 <_ZN8TimerOne4readEv+0x72>
+  72:	02 97       	sbiw	r24, 0x02	; 2
+  74:	01 f0       	breq	.+0      	; 0x76 <_ZN8TimerOne4readEv+0x76>
+  76:	00 c0       	rjmp	.+0      	; 0x78 <_ZN8TimerOne4readEv+0x78>
+  78:	84 30       	cpi	r24, 0x04	; 4
+  7a:	91 05       	cpc	r25, r1
+  7c:	01 f0       	breq	.+0      	; 0x7e <_ZN8TimerOne4readEv+0x7e>
+  7e:	05 97       	sbiw	r24, 0x05	; 5
+  80:	01 f0       	breq	.+0      	; 0x82 <_ZN8TimerOne4readEv+0x82>
+  82:	00 c0       	rjmp	.+0      	; 0x84 <_ZN8TimerOne4readEv+0x84>
+        case 1:
+
+            // No prescalse
+            scale = 0;
+  84:	19 82       	std	Y+1, r1	; 0x01
+            break;
+  86:	00 c0       	rjmp	.+0      	; 0x88 <_ZN8TimerOne4readEv+0x88>
+        case 2:
+
+            // x8 prescale
+            scale = 3;
+  88:	83 e0       	ldi	r24, 0x03	; 3
+  8a:	89 83       	std	Y+1, r24	; 0x01
+            break;
+  8c:	00 c0       	rjmp	.+0      	; 0x8e <_ZN8TimerOne4readEv+0x8e>
+        case 3:
+
+            // x64
+            scale = 6;
+  8e:	86 e0       	ldi	r24, 0x06	; 6
+  90:	89 83       	std	Y+1, r24	; 0x01
+            break;
+  92:	00 c0       	rjmp	.+0      	; 0x94 <_ZN8TimerOne4readEv+0x94>
+        case 4:
+
+            // x256
+            scale = 8;
+  94:	88 e0       	ldi	r24, 0x08	; 8
+  96:	89 83       	std	Y+1, r24	; 0x01
+            break;
+  98:	00 c0       	rjmp	.+0      	; 0x9a <_ZN8TimerOne4readEv+0x9a>
+        case 5:
+
+            // x1024
+            scale = 10;
+  9a:	8a e0       	ldi	r24, 0x0A	; 10
+  9c:	89 83       	std	Y+1, r24	; 0x01
+            break;
+  9e:	00 00       	nop
+    }
+
+    // Max delay here is ~1023 cycles.
+    do {
+        oldSREG = SREG;
+  a0:	8f e5       	ldi	r24, 0x5F	; 95
+  a2:	90 e0       	ldi	r25, 0x00	; 0
+  a4:	fc 01       	movw	r30, r24
+  a6:	20 81       	ld	r18, Z
+  a8:	88 85       	ldd	r24, Y+8	; 0x08
+  aa:	99 85       	ldd	r25, Y+9	; 0x09
+  ac:	fc 01       	movw	r30, r24
+  ae:	23 83       	std	Z+3, r18	; 0x03
+        cli();
+  b0:	f8 94       	cli
+        tcnt1 = TCNT1;
+  b2:	84 e8       	ldi	r24, 0x84	; 132
+  b4:	90 e0       	ldi	r25, 0x00	; 0
+  b6:	fc 01       	movw	r30, r24
+  b8:	80 81       	ld	r24, Z
+  ba:	91 81       	ldd	r25, Z+1	; 0x01
+  bc:	9f 83       	std	Y+7, r25	; 0x07
+  be:	8e 83       	std	Y+6, r24	; 0x06
+        SREG = oldSREG;
+  c0:	8f e5       	ldi	r24, 0x5F	; 95
+  c2:	90 e0       	ldi	r25, 0x00	; 0
+  c4:	28 85       	ldd	r18, Y+8	; 0x08
+  c6:	39 85       	ldd	r19, Y+9	; 0x09
+  c8:	f9 01       	movw	r30, r18
+  ca:	23 81       	ldd	r18, Z+3	; 0x03
+  cc:	fc 01       	movw	r30, r24
+  ce:	20 83       	st	Z, r18
+    } while (tcnt1 == tmp);
+  d0:	8e 81       	ldd	r24, Y+6	; 0x06
+  d2:	9f 81       	ldd	r25, Y+7	; 0x07
+  d4:	9c 01       	movw	r18, r24
+  d6:	40 e0       	ldi	r20, 0x00	; 0
+  d8:	50 e0       	ldi	r21, 0x00	; 0
+            scale = 10;
+            break;
+    }
+
+    // Max delay here is ~1023 cycles.
+    do {
+  da:	8a 81       	ldd	r24, Y+2	; 0x02
+  dc:	9b 81       	ldd	r25, Y+3	; 0x03
+  de:	ac 81       	ldd	r26, Y+4	; 0x04
+  e0:	bd 81       	ldd	r27, Y+5	; 0x05
+  e2:	28 17       	cp	r18, r24
+  e4:	39 07       	cpc	r19, r25
+  e6:	4a 07       	cpc	r20, r26
+  e8:	5b 07       	cpc	r21, r27
+  ea:	01 f0       	breq	.+0      	; 0xec <_ZN8TimerOne4readEv+0xec>
+        tcnt1 = TCNT1;
+        SREG = oldSREG;
+    } while (tcnt1 == tmp);
+
+    // If we are counting down add the top value to how far we have counted down.
+    tmp = ((tcnt1 > tmp) ? (tmp) : (long) (ICR1 - tcnt1) + (long) ICR1 );
+  ec:	8e 81       	ldd	r24, Y+6	; 0x06
+  ee:	9f 81       	ldd	r25, Y+7	; 0x07
+  f0:	9c 01       	movw	r18, r24
+  f2:	40 e0       	ldi	r20, 0x00	; 0
+  f4:	50 e0       	ldi	r21, 0x00	; 0
+  f6:	8a 81       	ldd	r24, Y+2	; 0x02
+  f8:	9b 81       	ldd	r25, Y+3	; 0x03
+  fa:	ac 81       	ldd	r26, Y+4	; 0x04
+  fc:	bd 81       	ldd	r27, Y+5	; 0x05
+  fe:	82 17       	cp	r24, r18
+ 100:	93 07       	cpc	r25, r19
+ 102:	a4 07       	cpc	r26, r20
+ 104:	b5 07       	cpc	r27, r21
+ 106:	00 f0       	brcs	.+0      	; 0x108 <_ZN8TimerOne4readEv+0x108>
+ 108:	86 e8       	ldi	r24, 0x86	; 134
+ 10a:	90 e0       	ldi	r25, 0x00	; 0
+ 10c:	fc 01       	movw	r30, r24
+ 10e:	20 81       	ld	r18, Z
+ 110:	31 81       	ldd	r19, Z+1	; 0x01
+ 112:	8e 81       	ldd	r24, Y+6	; 0x06
+ 114:	9f 81       	ldd	r25, Y+7	; 0x07
+ 116:	a9 01       	movw	r20, r18
+ 118:	48 1b       	sub	r20, r24
+ 11a:	59 0b       	sbc	r21, r25
+ 11c:	ca 01       	movw	r24, r20
+ 11e:	9c 01       	movw	r18, r24
+ 120:	40 e0       	ldi	r20, 0x00	; 0
+ 122:	50 e0       	ldi	r21, 0x00	; 0
+ 124:	86 e8       	ldi	r24, 0x86	; 134
+ 126:	90 e0       	ldi	r25, 0x00	; 0
+ 128:	fc 01       	movw	r30, r24
+ 12a:	80 81       	ld	r24, Z
+ 12c:	91 81       	ldd	r25, Z+1	; 0x01
+ 12e:	cc 01       	movw	r24, r24
+ 130:	a0 e0       	ldi	r26, 0x00	; 0
+ 132:	b0 e0       	ldi	r27, 0x00	; 0
+ 134:	82 0f       	add	r24, r18
+ 136:	93 1f       	adc	r25, r19
+ 138:	a4 1f       	adc	r26, r20
+ 13a:	b5 1f       	adc	r27, r21
+ 13c:	00 c0       	rjmp	.+0      	; 0x13e <_ZN8TimerOne4readEv+0x13e>
+ 13e:	8a 81       	ldd	r24, Y+2	; 0x02
+ 140:	9b 81       	ldd	r25, Y+3	; 0x03
+ 142:	ac 81       	ldd	r26, Y+4	; 0x04
+ 144:	bd 81       	ldd	r27, Y+5	; 0x05
+ 146:	8a 83       	std	Y+2, r24	; 0x02
+ 148:	9b 83       	std	Y+3, r25	; 0x03
+ 14a:	ac 83       	std	Y+4, r26	; 0x04
+ 14c:	bd 83       	std	Y+5, r27	; 0x05
+
+    // Add casts and reuse previous TCNT1
+    return ((tmp * 1000L) / (F_CPU / 1000L)) << scale;
+ 14e:	2a 81       	ldd	r18, Y+2	; 0x02
+ 150:	3b 81       	ldd	r19, Y+3	; 0x03
+ 152:	4c 81       	ldd	r20, Y+4	; 0x04
+ 154:	5d 81       	ldd	r21, Y+5	; 0x05
+ 156:	88 ee       	ldi	r24, 0xE8	; 232
+ 158:	93 e0       	ldi	r25, 0x03	; 3
+ 15a:	dc 01       	movw	r26, r24
+ 15c:	0e 94 00 00 	call	0	; 0x0 <_ZN8TimerOne4readEv>
+ 160:	dc 01       	movw	r26, r24
+ 162:	cb 01       	movw	r24, r22
+ 164:	20 e8       	ldi	r18, 0x80	; 128
+ 166:	3e e3       	ldi	r19, 0x3E	; 62
+ 168:	40 e0       	ldi	r20, 0x00	; 0
+ 16a:	50 e0       	ldi	r21, 0x00	; 0
+ 16c:	bc 01       	movw	r22, r24
+ 16e:	cd 01       	movw	r24, r26
+ 170:	0e 94 00 00 	call	0	; 0x0 <_ZN8TimerOne4readEv>
+ 174:	da 01       	movw	r26, r20
+ 176:	c9 01       	movw	r24, r18
+ 178:	29 81       	ldd	r18, Y+1	; 0x01
+ 17a:	22 2f       	mov	r18, r18
+ 17c:	30 e0       	ldi	r19, 0x00	; 0
+ 17e:	00 c0       	rjmp	.+0      	; 0x180 <_ZN8TimerOne4readEv+0x180>
+ 180:	88 0f       	add	r24, r24
+ 182:	99 1f       	adc	r25, r25
+ 184:	aa 1f       	adc	r26, r26
+ 186:	bb 1f       	adc	r27, r27
+ 188:	2a 95       	dec	r18
+ 18a:	02 f4       	brpl	.+0      	; 0x18c <_ZN8TimerOne4readEv+0x18c>
+}
+ 18c:	bc 01       	movw	r22, r24
+ 18e:	cd 01       	movw	r24, r26
+ 190:	2d 96       	adiw	r28, 0x0d	; 13
+ 192:	0f b6       	in	r0, 0x3f	; 63
+ 194:	f8 94       	cli
+ 196:	de bf       	out	0x3e, r29	; 62
+ 198:	0f be       	out	0x3f, r0	; 63
+ 19a:	cd bf       	out	0x3d, r28	; 61
+ 19c:	df 91       	pop	r29
+ 19e:	cf 91       	pop	r28
+ 1a0:	08 95       	ret

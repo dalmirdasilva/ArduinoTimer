@@ -6,12 +6,18 @@
 #define __ARDUINO_MODULE_TIMER_THREE_CPP__
 
 #include "TimerThree.h"
+#include <Arduino.h>
+#include <avr/io.h>
+#include <avr/interrupt.h>
+
+#ifndef _AVR_IOM328P_H_
 
 TimerThree Timer3;
 
-// Interrupt service routine that wraps a user
-// defined function supplied by attachInterrupt
 ISR(TIMER3_OVF_vect) {
+
+    // Interrupt service routine that wraps a user
+    // defined function supplied by attachInterrupt
     Timer3.isrCallback();
 }
 
@@ -26,19 +32,34 @@ void TimerThree::initialize(long microseconds) {
 }
 
 void TimerThree::setPeriod(long microseconds) {
-    long cycles = (F_CPU * microseconds) / 2000000; // the counter runs backwards after TOP, interrupt is at BOTTOM so divide microseconds by 2
-    if (cycles < TIMER_THREE_RESOLUTION)
-        clockSelectBits = _BV(CS10); // no prescale, full xtal
-    else if ((cycles >>= 3) < TIMER_THREE_RESOLUTION)
-        clockSelectBits = _BV(CS11); // prescale by /8
-    else if ((cycles >>= 3) < TIMER_THREE_RESOLUTION)
-        clockSelectBits = _BV(CS11) | _BV(CS10); // prescale by /64
-    else if ((cycles >>= 2) < TIMER_THREE_RESOLUTION)
-        clockSelectBits = _BV(CS12); // prescale by /256
-    else if ((cycles >>= 2) < TIMER_THREE_RESOLUTION)
-        clockSelectBits = _BV(CS12) | _BV(CS10); // prescale by /1024
-    else
-        cycles = TIMER_THREE_RESOLUTION - 1, clockSelectBits = _BV(CS12) | _BV(CS10); // request was out of bounds, set as maximum
+
+    // the counter runs backwards after TOP, interrupt is at BOTTOM so divide microseconds by 2
+    long cycles = (F_CPU * microseconds) / 2000000;
+    if (cycles < TIMER_THREE_RESOLUTION) {
+
+        // no prescale, full xtal
+        clockSelectBits = _BV(CS10);
+    } else if ((cycles >>= 3) < TIMER_THREE_RESOLUTION) {
+
+        // prescale by /8
+        clockSelectBits = _BV(CS11);
+    } else if ((cycles >>= 3) < TIMER_THREE_RESOLUTION) {
+
+        // prescale by /64
+        clockSelectBits = _BV(CS11) | _BV(CS10);
+    } else if ((cycles >>= 2) < TIMER_THREE_RESOLUTION) {
+
+        // prescale by /256
+        clockSelectBits = _BV(CS12);
+    } else if ((cycles >>= 2) < TIMER_THREE_RESOLUTION) {
+
+        // prescale by /1024
+        clockSelectBits = _BV(CS12) | _BV(CS10);
+    } else {
+
+        // request was out of bounds, set as maximum
+        cycles = TIMER_THREE_RESOLUTION - 1, clockSelectBits = _BV(CS12) | _BV(CS10);
+    }
     ICR3 = pwmPeriod = cycles; // ICR1 is TOP in p & f correct pwm mode
     TCCR3B &= ~(_BV(CS10) | _BV(CS11) | _BV(CS12));
     TCCR3B |= clockSelectBits; // reset clock select register
@@ -48,18 +69,23 @@ void TimerThree::setPwmDuty(char pin, int duty) {
     unsigned long dutyCycle = pwmPeriod;
     dutyCycle *= duty;
     dutyCycle >>= 10;
-    if (pin == 5)
+    if (pin == 5) {
         OCR3A = dutyCycle;
-    if (pin == 2)
+    }
+    if (pin == 2) {
         OCR3B = dutyCycle;
-    if (pin == 3)
+    }
+    if (pin == 3) {
         OCR3C = dutyCycle;
+    }
 }
 
-void TimerThree::pwm(char pin, int duty, long microseconds) // expects duty cycle to be 10 bit (1024)
-        {
-    if (microseconds > 0)
+void TimerThree::pwm(char pin, int duty, long microseconds) {
+
+    // expects duty cycle to be 10 bit (1024)
+    if (microseconds > 0) {
         setPeriod(microseconds);
+    }
 
     // sets data direction register for pwm output pin
     // activates the output pin
@@ -80,26 +106,37 @@ void TimerThree::pwm(char pin, int duty, long microseconds) // expects duty cycl
 }
 
 void TimerThree::disablePwm(char pin) {
-    if (pin == 5)
+    if (pin == 5) {
         TCCR3A &= ~_BV(COM3A1); // clear the bit that enables pwm on PE3
-    if (pin == 2)
+    }
+    if (pin == 2) {
         TCCR3A &= ~_BV(COM3B1); // clear the bit that enables pwm on PE4
-    if (pin == 3)
+    }
+    if (pin == 3) {
         TCCR3A &= ~_BV(COM3C1); // clear the bit that enables pwm on PE5
+    }
 }
 
 void TimerThree::attachInterrupt(void (*isr)(), long microseconds) {
-    if (microseconds > 0)
+    if (microseconds > 0) {
         setPeriod(microseconds);
-    isrCallback = isr; // register the user's callback with the real ISR
-    TIMSK3 = _BV(TOIE1); // sets the timer overflow interrupt enable bit
+    }
+
+    // register the user's callback with the real ISR
+    isrCallback = isr;
+
+    // sets the timer overflow interrupt enable bit
+    TIMSK3 = _BV(TOIE1);
     sei();
+
     // ensures that interrupts are globally enabled
     start();
 }
 
 void TimerThree::detachInterrupt() {
-    TIMSK3 &= ~_BV(TOIE1); // clears the timer overflow interrupt enable bit
+
+    // clears the timer overflow interrupt enable bit
+    TIMSK3 &= ~_BV(TOIE1);
 }
 
 void TimerThree::start() {
@@ -107,11 +144,14 @@ void TimerThree::start() {
 }
 
 void TimerThree::stop() {
-    TCCR3B &= ~(_BV(CS10) | _BV(CS11) | _BV(CS12)); // clears all clock selects bits
+
+    // clears all clock selects bits
+    TCCR3B &= ~(_BV(CS10) | _BV(CS11) | _BV(CS12));
 }
 
 void TimerThree::restart() {
     TCNT3 = 0;
 }
 
+#endif /* _AVR_IOM328P_H_ */
 #endif /* __ARDUINO_MODULE_TIMER_THREE_CPP__ */

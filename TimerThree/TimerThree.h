@@ -6,7 +6,7 @@
 #define __ARDUINO_MODULE_TIMER_THREE_H__
 
 #include <avr/io.h>
-#include <avr/interrupt.h>
+#ifndef _AVR_IOM328P_H_
 
 // Timer3 is 16 bit
 #define TIMER_THREE_RESOLUTION 65536
@@ -94,8 +94,11 @@ public:
      * The pointer to the function.
      */
     void (*isrCallback)();
+
+    void restart();
 };
 
 extern TimerThree Timer3;
 
+#endif /* _AVR_IOM328P_H_ */
 #endif /* __ARDUINO_MODULE_TIMER_THREE_H__ */
